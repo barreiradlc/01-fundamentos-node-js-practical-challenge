@@ -1,0 +1,27 @@
+@id = 7f19fec8-d325-45e2-9ca7-8166f78a042f
+
+PUT http://localhost:3333/tasks/{{ id }}
+Content-Type: application/json
+
+{
+  "title": "Sample title2",
+  "description": "Podemos já vislumbrar o modo pelo qual a consulta aos diversos militantes assume importantes posições no estabelecimento do sistema de formação de quadros que corresponde às necessidades2."
+}
+
+###
+
+PUT http://localhost:3333/tasks/{{ id }}
+Content-Type: application/json
+
+{
+  "title": "Sample title3"
+}
+
+###
+
+PUT http://localhost:3333/tasks/{{ id }}
+Content-Type: application/json
+
+{
+  "description": "Podemos já vislumbrar o modo pelo qual a consulta aos diversos militantes assume importantes posições no estabelecimento do sistema de formação de quadros que corresponde às necessidades3."
+}
