@@ -1,0 +1,29 @@
+GET http://localhost:3333/tasks
+Content-Type: application/json
+
+###
+
+GET http://localhost:3333/tasks
+Content-Type: application/json
+
+{
+  "title": "Sample title"  
+}
+
+###
+
+GET http://localhost:3333/tasks
+Content-Type: application/json
+
+{
+  "description": "Podemos já vislumbrar o modo pelo qual a consulta aos diversos militantes assume importantes posições no estabelecimento do sistema de formação de quadros que corresponde às necessidades."
+}
+###
+
+GET http://localhost:3333/tasks
+Content-Type: application/json
+
+{
+  "title": "Sample title",
+  "description": "Podemos já vislumbrar o modo pelo qual a consulta aos diversos militantes assume importantes posições no estabelecimento do sistema de formação de quadros que corresponde às necessidades."
+}
