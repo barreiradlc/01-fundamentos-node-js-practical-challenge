@@ -1,0 +1,4 @@
+@id = 7f19fec8-d325-45e2-9ca7-8166f78a042f
+
+PATCH  http://localhost:3333/tasks/{{ id }}
+Content-Type: application/json

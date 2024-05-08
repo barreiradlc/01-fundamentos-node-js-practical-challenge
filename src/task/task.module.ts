@@ -3,6 +3,7 @@ import { PrismaService } from 'src/prisma.service';
 import { CreateTaskModule } from './modules/create/create.task.module';
 import { DeleteTaskModule } from './modules/delete/delete.task.module';
 import { ListTaskModule } from './modules/list/list.task.module';
+import { ToggleCompletionTaskModule } from './modules/toggleCompletion/toggleCompletion.task.module';
 import { UpdateTaskModule } from './modules/update/update.task.module';
 
 @Module({
@@ -11,6 +12,7 @@ import { UpdateTaskModule } from './modules/update/update.task.module';
     ListTaskModule,
     UpdateTaskModule,
     DeleteTaskModule,
+    ToggleCompletionTaskModule,
   ],
   controllers: [],
   providers: [PrismaService],
