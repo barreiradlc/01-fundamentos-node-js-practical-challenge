@@ -7,10 +7,6 @@ export class CreateTaskService {
   constructor(private prismaService: PrismaService) {}
 
   createTask(taskData: CreateTaskDTO) {
-    console.log(taskData);
-
     return this.prismaService.task.create({ data: taskData });
-
-    return 'Hello Task!';
   }
 }
