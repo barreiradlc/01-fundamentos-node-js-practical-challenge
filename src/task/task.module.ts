@@ -5,6 +5,7 @@ import { DeleteTaskModule } from './modules/delete/delete.task.module';
 import { ListTaskModule } from './modules/list/list.task.module';
 import { ToggleCompletionTaskModule } from './modules/toggleCompletion/toggleCompletion.task.module';
 import { UpdateTaskModule } from './modules/update/update.task.module';
+import { UploadCSVModule } from './modules/uploadCSV/UploadCSV.task.module';
 
 @Module({
   imports: [
@@ -13,6 +14,7 @@ import { UpdateTaskModule } from './modules/update/update.task.module';
     UpdateTaskModule,
     DeleteTaskModule,
     ToggleCompletionTaskModule,
+    UploadCSVModule,
   ],
   controllers: [],
   providers: [PrismaService],
