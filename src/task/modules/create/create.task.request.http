@@ -15,3 +15,21 @@ Content-Type: application/json
   "title": "Another title",
   "description": "Do mesmo modo, o desafiador cenário globalizado auxilia a preparação e a composição dos relacionamentos verticais entre as hierarquias."
 }
+
+###
+
+POST http://localhost:3333/tasks
+Content-Type: application/json
+
+{
+  "description": "Do mesmo modo, o desafiador cenário globalizado auxilia a preparação e a composição dos relacionamentos verticais entre as hierarquias."
+}
+
+###
+
+POST http://localhost:3333/tasks
+Content-Type: application/json
+
+{
+  "title": "Barabara"
+}

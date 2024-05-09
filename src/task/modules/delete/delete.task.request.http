@@ -1,4 +1,4 @@
-@id = 053eeb5d-fa99-4ebe-a1c4-52be065ca22f
+@id = 7f19fec8-d325-45e2-9ca7-8166f78a042f
 
 DELETE  http://localhost:3333/tasks/{{ id }}
 Content-Type: application/json
